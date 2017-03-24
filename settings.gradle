@@ -1,1 +1,1 @@
-include ':app', ':tinker-sample-android', ':LibTest', ':library', ':material-spinner-1.0.5', ':change_skin_app', ':changeskin'
+include ':app', ':tinker-sample-android', ':LibTest', ':library', ':material-spinner-1.0.5', ':change_skin_app', ':changeskin', ':MyDexDemo'

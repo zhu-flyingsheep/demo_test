@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LibTest/LibTest.iml" filepath="$PROJECT_DIR$/LibTest/LibTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyDexDemo/MyDexDemo.iml" filepath="$PROJECT_DIR$/MyDexDemo/MyDexDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/change_skin_app/change_skin_app.iml" filepath="$PROJECT_DIR$/change_skin_app/change_skin_app.iml" />
       <module fileurl="file://$PROJECT_DIR$/changeskin/changeskin.iml" filepath="$PROJECT_DIR$/changeskin/changeskin.iml" />

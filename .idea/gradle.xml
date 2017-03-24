@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/LibTest" />
+            <option value="$PROJECT_DIR$/MyDexDemo" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/change_skin_app" />
             <option value="$PROJECT_DIR$/changeskin" />
