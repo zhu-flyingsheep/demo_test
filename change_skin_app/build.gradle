@@ -1,0 +1,44 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "com.zhy.skinchangenow"
+        minSdkVersion 10
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+//afterEvaluate {
+//    tasks.matching {
+//        it.name.startsWith('dex')
+//    }.each { dx ->
+//        if (dx.additionalParameters == null) {
+//            dx.additionalParameters = []
+//        }
+//        dx.additionalParameters += '--multi-dex'
+//        // 设置multidex.keep文件中class为第一个dex文件中包含的class，如果没有下一项设置此项无作用
+//        dx.additionalParameters += "--main-dex-list=$projectDir/multidex.keep".toString()
+//        //此项添加后第一个classes.dex文件只能包含-main-dex-list列表中class
+//        dx.additionalParameters += '--minimal-main-dex'
+//    }
+//}
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile files('libs/nineoldandroids-2.4.0.jar')
+    compile project(':changeskin')
+    compile 'com.android.support:support-v4:23.0.1'
+    compile 'com.android.support:appcompat-v7:23.0.1'
+    compile 'com.android.support:multidex:1.0.0'
+}

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_range"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="range 10 5" />
+
+    <Button
+        android:id="@+id/btn_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="just defer fromArray" />
+
+    <Button
+        android:id="@+id/btn_Interval"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Interval"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_unsubscribe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="unsubscribe"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_buffer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="buffer   (1, 2, 3, 4, 5, 6, 7, 8, 9).buffer(2, 3)" />
+
+    <Button
+        android:id="@+id/btn_FlatMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FlatMap   转换后再发射，123 加了前缀" />
+
+
+    <Button
+        android:id="@+id/btn_FlatMapIterable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FlatMapIterable"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_group_by"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="groupby  分组后发射" />
+
+
+    <Button
+        android:id="@+id/btn_ElementAt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ElementAt just(0, 1, 2, 3, 4, 5).elementAt(4)" />
+
+    <Button
+        android:id="@+id/btn_filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="filter just(0, 1, 2, 3, 4, 5, 6) 过滤偶数" />
+
+    <Button
+        android:id="@+id/btn_join"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="join"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="更多操作符" />
+</LinearLayout>

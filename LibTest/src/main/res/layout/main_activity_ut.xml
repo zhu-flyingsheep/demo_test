@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_logger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logger" />
+
+        <Button
+            android:id="@+id/tbn_realm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="realm移动数据库" />
+
+        <Button
+            android:id="@+id/btn_rxandroid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rxjava" />
+
+        <Button
+            android:id="@+id/btn_retrofit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="retrofit" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logger"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btn_rx_retrofit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="retrofit+rxjava" />
+
+        <Button
+            android:id="@+id/btn_ry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="recycleview adapter helper\n 直接整合的官方demo" />
+
+        <Button
+            android:id="@+id/btn_tinker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="tinker" />
+    </LinearLayout>
+</ScrollView>
