@@ -1,6 +1,7 @@
 package com.example.myapplication;
 
 import android.app.Activity;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;
@@ -37,15 +38,16 @@ public class MainActivity extends Activity {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
+        PackageManager packageManager = getPackageManager();
+//        packageManager.getPackageArchiveInfo();
         //下面开始加载dex class
         DexClassLoader dexClassLoader = new DexClassLoader(internalPath, cacheFile.getAbsolutePath(), null, getClassLoader());
         try {
             Class libClazz = dexClassLoader.loadClass("com.example.myapplication.dynamic.impl.DynamicImpl");
             dynamic = (Dynamic) libClazz.newInstance();
-            if (dynamic != null){
+            if (dynamic != null) {
                 Toast.makeText(this, dynamic.sayHello(), Toast.LENGTH_LONG).show();
-                Log.i("sssssssssssss",dynamic.sayHello());
+                Log.i("sssssssssssss", dynamic.sayHello());
             }
         } catch (Exception e) {
             e.printStackTrace();
