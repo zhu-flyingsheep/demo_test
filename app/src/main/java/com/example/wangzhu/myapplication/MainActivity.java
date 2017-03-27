@@ -5,9 +5,12 @@ import android.os.Bundle;
 import android.util.Log;
 
 import com.example.wangzhu.myapplication.annotation.ClassInfo;
+import com.example.wangzhu.myapplication.bean.Car;
 import com.example.wangzhu.myapplication.bean.Userinfo;
 
 import java.lang.reflect.Modifier;
+import java.util.ArrayList;
+import java.util.List;
 
 @ClassInfo()
 public class MainActivity extends AppCompatActivity {
@@ -28,10 +31,30 @@ public class MainActivity extends AppCompatActivity {
         }
         Log.i("MainActivity", sb.toString());
         ///////////////////
-        Userinfo userinfo = new Userinfo();
-        Log.i("MainActivity", "age" + userinfo.getAge() + "\n" + userinfo.getName());
+        Userinfo userinfo = new Userinfo("");
+        Log.i("MainActivity", "age" + userinfo.getAge() + "\n" + userinfo.getName() + "\n" + userinfo.getEmail());
+        //////////////////////
+        Car<String> s = getCar();
+        Log.i("MainActivity", s.getPrice() + "\n" + s.getType() + "\n" + s + "\n" + s.getCar());
+        List<String> ddddd = new ArrayList<>();
+        ddddd.add("ssd");
+        ddddd.add("bbbs");
+
+        Car<List<String>> listCar = new Car<>(ddddd);
+        getCar1(new Car<Number>(1));
+        Log.i("MainActivity", listCar.getPrice() + "\n" + listCar.getType() + "\n" + listCar + "\n" + listCar.getCar());
 
     }
 
 
+    public Car<String> getCar() {
+        Car<String> s = new Car<>("111");
+
+        return s;
+    }
+
+    public Car getCar1(Car<? extends Number> car) {
+
+        return car;
+    }
 }
