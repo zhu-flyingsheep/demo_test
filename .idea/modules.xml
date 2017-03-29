@@ -7,10 +7,12 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/change_skin_app/change_skin_app.iml" filepath="$PROJECT_DIR$/change_skin_app/change_skin_app.iml" />
       <module fileurl="file://$PROJECT_DIR$/changeskin/changeskin.iml" filepath="$PROJECT_DIR$/changeskin/changeskin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design_pattern/design_pattern.iml" filepath="$PROJECT_DIR$/design_pattern/design_pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
       <module fileurl="file://$PROJECT_DIR$/material-spinner-1.0.5/material-spinner-1.0.5.iml" filepath="$PROJECT_DIR$/material-spinner-1.0.5/material-spinner-1.0.5.iml" />
       <module fileurl="file://$PROJECT_DIR$/test_demos.iml" filepath="$PROJECT_DIR$/test_demos.iml" />
       <module fileurl="file://$PROJECT_DIR$/tinker-sample-android/tinker-sample-android.iml" filepath="$PROJECT_DIR$/tinker-sample-android/tinker-sample-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/upload_file_retorfit/upload_file_retorfit.iml" filepath="$PROJECT_DIR$/upload_file_retorfit/upload_file_retorfit.iml" />
     </modules>
   </component>
 </project>

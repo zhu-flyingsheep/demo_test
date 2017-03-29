@@ -13,9 +13,11 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/change_skin_app" />
             <option value="$PROJECT_DIR$/changeskin" />
+            <option value="$PROJECT_DIR$/design_pattern" />
             <option value="$PROJECT_DIR$/library" />
             <option value="$PROJECT_DIR$/material-spinner-1.0.5" />
             <option value="$PROJECT_DIR$/tinker-sample-android" />
+            <option value="$PROJECT_DIR$/upload_file_retorfit" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

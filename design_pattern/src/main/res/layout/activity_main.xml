@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.example.myapplication.MainActivity">
+
+    <include layout="@layout/tittle" />
+
+    <Button
+        android:id="@+id/btn_observer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="观察者" />
+
+    <Button
+        android:id="@+id/btn_strategy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="策略" />
+
+    <Button
+        android:id="@+id/btn_states"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="状态" />
+
+    <Button
+        android:id="@+id/btn_adapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="适配器" />
+
+    <Button
+        android:id="@+id/btn_chan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="责任链" />
+
+    <Button
+        android:id="@+id/btn_component"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="组合模式" />
+</LinearLayout>
