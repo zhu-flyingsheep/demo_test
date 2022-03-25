@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         List<String> ddddd = new ArrayList<>();
         ddddd.add("ssd");
         ddddd.add("bbbs");
-
+        ddddd.add("ssssss");
         Car<List<String>> listCar = new Car<>(ddddd);
         getCar1(new Car<Number>(1));
         Log.i("MainActivity", listCar.getPrice() + "\n" + listCar.getType() + "\n" + listCar + "\n" + listCar.getCar());
